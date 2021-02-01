@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600&family=Potta+One&display=swap');
+
+body{
+    font-family: 'Potta One', cursive;
+    background-image: url(recursos/back.jpg);
+    background-repeat:auto ;
+}
+
+.container{
+    width: 95%;
+    overflow:hidden;
+    margin: auto;
+}
+
+#main-header{
+    background-color: #333;
+    padding: 15px 2px 1px 2px;
+    color: blanchedalmond;
+}
+
+#my-nav{
+    background-color:#333;
+    color:white;
+}
+
+#my-nav ul{
+    padding: 2px;
+    list-style: none;
+}
+
+#my-nav li{
+    padding: 48px;
+    display: inline;
+    text-align: right;
+}
+
+#my-nav a{
+    padding: 100px;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 15px;
+    color: aqua;
+}
+
+h1{
+  /*font-family: Georgia, 'Times New Roman', Times, serif; */
+    font-size: 60px;
+    text-align: center;
+    color: #c69c6d;
+    text-shadow: 4px 2px red; 
+}
+
+h2{
+    font-size: 45px;
+    text-align: center;
+    margin-top: 1px;
+    text-shadow: 4px 2px red; 
+}
+
+.span1{
+    flex: initial;
+    font-family: 'Gentium Book Basic' serif;
+    text-align: end;
+    columns: #f4f4f4;;
+    font-size: 35px;
+    text-align: justify;
+    width: 80%;
+}
+#main-footer{
+    font-size: 30px;
+    background: aqua;
+    color:black;
+    text-shadow: 1px 2px red;
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+    padding-bottom: 25px;
+    margin-bottom: 10px;
+    border: 10px;
+    position: bottom;
+}
+#main-second{
+    font-size: 23px;
+}
+#colors{
+    color: greenyellow;
+}
+a{
+    color: indianred;
+    font-size: 18px;
+}
+
+@media(max-width:600px){
+    #my-nav{
+        width: 100%;
+        float: none;
+    }
+
+    #main-second{
+        width: 100%;
+        float: none;
+    }
+
+    .span1{
+        width: 100%;
+        float: none;
+    }
+    .container{
+        width: 100%;
+        float: none;
+    }
+}
